@@ -1,0 +1,1 @@
+# solar_roof_community_project
