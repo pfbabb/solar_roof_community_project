@@ -34,3 +34,24 @@ https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file
 
 Average Utility Rates:
 https://www.eia.gov/electricity/data/eia861/
+
+## Data Analysis
+
+Used Python to run Google BigQuery SQL query to combine Sunroof and ACS data. Used the Utility Rate API to get location data on utilities to match up with Average Utiltiy Rates.
+
+Dug into some correlations and created this chart:
+
+![Heatmap](/maps/corr.png)
+
+
+## Dashboard
+
+Tableau Dashboard https://public.tableau.com/views/CommunitySolarProject/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
+## Maps
+
+[Hawaii Map](/maps/himap.html)
+
+[California Map](/maps/camap.html)
+
+[New Mexico Map](/maps/nmmap.html)
