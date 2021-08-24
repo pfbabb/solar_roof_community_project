@@ -1,6 +1,8 @@
-# solar_roof_community_project
+# Solar Roof Community Project
 
+## PowerPoint Presentation
 
+[Project Presentation](solarroofpresentation.pdf)
 
 ## Executive Summary
 In the push towards renewable energy, solar power can be a clear winner if the space is found for sufficient energy generation. Roofs of residential homes can provide the space needed to power a city from within. Where should policy makers and solar business concentrate their efforts to maximize the benefits of using solar?
@@ -20,28 +22,34 @@ Create map for top metro areas for solar installation by cost savings
 Outline what describes the top locations for current estimated installs
 
 ## Data Sources
-Project Sunroof:
+Google Project Sunroof:
 https://console.cloud.google.com/marketplace/product/project-sunroof/project-sunroof?project=api-learning-320518&folder=&organizationId=
 
-American Community Survey:
+American Community Survey by US Census (Housing, Population, and Income Data):
 https://console.cloud.google.com/marketplace/product/united-states-census-bureau/acs?project=api-learning-320518&folder=&organizationId=
 
-Utility Rate API (Lat/Lon to Utility):
+Utility Rate API (Locations of Utility):
 https://openei.org/services/doc/rest/util_rates/?version=3
 
-Census Tract Data
+Census Tract Data (Shape Files for map building)
 https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2015.html
 
-Average Utility Rates:
+Average Utility Rates by Utility Provider:
 https://www.eia.gov/electricity/data/eia861/
 
 ## Data Analysis
 
 Used Python to run Google BigQuery SQL query to combine Sunroof and ACS data. Used the Utility Rate API to get location data on utilities to match up with Average Utiltiy Rates.
 
+![GCPquery](/maps/gcpquery.png)
+![Notebookquery](/maps/notebookquery.png)
+
 Dug into some correlations and created this chart:
 
 ![Heatmap](/maps/corr.png)
+
+More information in presentation:
+[Project Presentation](solarroofpresentation.pdf)
 
 
 ## Dashboard
